@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 const TutorNavbar = () => {
     return (
-        <div className="sticky px-8 top-0 z-50 bg-white shadow-md">
+        <div className="sticky px-8  top-0 z-50 bg-white shadow-md">
             <div className="flex items-center justify-between ">
                 <div className="flex items-center">
                     {/* Logo */}
-                    <div className=" flex-shrink-0   ">
+                    <div className=" flex-shrink-0 ">
                         <Link href="https://ant.design">
                             <Image
                                 src="https://res.cloudinary.com/dj2edy2rg/image/upload/v1739890227/Frame_2147224871_ekpza2.png"
