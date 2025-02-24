@@ -1,17 +1,11 @@
 import React from 'react';
-import { Button } from "antd";
-const Home = () => {
+
+const page = () => {
   return (
     <div>
-      <Button variant='primary'  >Submit</Button>
-      <Button color="default" variant="solid">
-        Solid
-      </Button>
-      <Button color="primary" variant="outlined">
-        Outlined
-      </Button>
+      <h1 className=' h-screen  ' >Home page</h1>
     </div>
   );
 };
 
-export default Home;
+export default page;

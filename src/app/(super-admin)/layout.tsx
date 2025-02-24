@@ -35,8 +35,8 @@ const Layout = ({ children }) => {
 
                                 {/* Profile Link */}
                                 <li>
-                                    <Link href="/gurdian/job-request">
-                                        <div className={`flex items-center space-x-3 p-3 rounded-lg  transition-all duration-300 ${pathname === "/gurdian/job-request" ? "bg-white text-[#64A8E8] font-semibold  shadow transition-all duration-500 " : "text-[#3A3A3A] font-medium "}`}>
+                                    <Link href="/admin/job-request">
+                                        <div className={`flex items-center space-x-3 p-3 rounded-lg  transition-all duration-300 ${pathname === "/admin/job-request" ? "bg-white text-[#64A8E8] font-semibold  shadow transition-all duration-500 " : "text-[#3A3A3A] font-medium "}`}>
                                             <Image
                                                 src="https://res.cloudinary.com/dj2edy2rg/image/upload/v1739603224/tutor-bridge/jqous4irxwpncr90ux30.png"
                                                 alt="Profile Icon"
@@ -48,8 +48,8 @@ const Layout = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/gurdian/profile">
-                                        <div className={`flex items-center space-x-3 p-3 rounded-lg  transition-all duration-300 ${pathname === "/gurdian/profile" ? "bg-white text-[#64A8E8] font-semibold  shadow transition-all duration-500 " : " text-[#3A3A3A] font-medium "}`}>
+                                    <Link href="/admin/profile">
+                                        <div className={`flex items-center space-x-3 p-3 rounded-lg  transition-all duration-300 ${pathname === "/admin/profile" ? "bg-white text-[#64A8E8] font-semibold  shadow transition-all duration-500 " : " text-[#3A3A3A] font-medium "}`}>
                                             <Image
                                                 src="https://res.cloudinary.com/dj2edy2rg/image/upload/v1739603619/tutor-bridge/ztvcg8wvblsryuietkqe.png"
                                                 alt="Profile Icon"
@@ -62,8 +62,8 @@ const Layout = ({ children }) => {
                                 </li>
 
                                 <li>
-                                    <Link href="/gurdian/total-teacher">
-                                        <div className={`flex items-center space-x-3 p-3 rounded-lg  transition-all duration-300 ${pathname === "/gurdian/total-teacher" ? "bg-white text-[#64A8E8] font-semibold  shadow transition-all duration-500 " : " text-[#3A3A3A] font-medium "}`}>
+                                    <Link href="/admin/total-teacher">
+                                        <div className={`flex items-center space-x-3 p-3 rounded-lg  transition-all duration-300 ${pathname === "/admin/total-teacher" ? "bg-white text-[#64A8E8] font-semibold  shadow transition-all duration-500 " : " text-[#3A3A3A] font-medium "}`}>
                                             <Image
                                                 src="https://res.cloudinary.com/dj2edy2rg/image/upload/v1739603897/tutor-bridge/mhy6vcoqqiuwey029qrz.png"
                                                 alt="Profile Icon"
